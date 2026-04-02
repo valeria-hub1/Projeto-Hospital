@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Médicos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Cadastro de Médico</h1>
+
+<form>
+  <input type="text" placeholder="Nome" required>
+  <input type="text" placeholder="CRM" required>
+  <input type="text" placeholder="Especialidade" required>
+  <button>Cadastrar</button>
+</form>
+
+<a href="paciente.html">Próximo → Pacientes</a>
+
+</body>
+</html>
