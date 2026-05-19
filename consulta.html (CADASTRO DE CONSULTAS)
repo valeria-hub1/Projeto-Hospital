@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Consulta</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Cadastro de Consulta</h1>
+
+<form>
+
+<label>Paciente:</label>
+<input type="text">
+
+<label>Médico:</label>
+<input type="text">
+
+<label>Data:</label>
+<input type="date">
+
+<button type="button" onclick="alert('Consulta cadastrada!')">
+Cadastrar
+</button>
+
+</form>
+
+<a href="lista-consultas.html">
+Ir para Lista de Consultas
+</a>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
