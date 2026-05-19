@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Médico</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Cadastro de Médico</h1>
+
+<form>
+
+<label>Nome:</label>
+<input type="text">
+
+<label>Especialidade:</label>
+<input type="text">
+
+<label>CRM:</label>
+<input type="text">
+
+<button type="button" onclick="alert('Médico cadastrado!')">
+Cadastrar
+</button>
+
+</form>
+
+<br>
+
+<a href="lista-medicos.html">
+Ir para Lista de Médicos
+</a>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
