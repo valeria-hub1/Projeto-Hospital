@@ -1,0 +1,41 @@
+   <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Paciente</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Cadastro de Paciente</h1>
+
+<form>
+
+<label>Nome:</label>
+<input type="text">
+
+<label>Idade:</label>
+<input type="number">
+
+<label>CPF:</label>
+<input type="text">
+
+<button type="button" onclick="alert('Paciente cadastrado!')">
+Cadastrar
+</button>
+
+</form>
+
+<br>
+
+<a href="lista-pacientes.html">
+Ir para Lista de Pacientes
+</a>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+   
